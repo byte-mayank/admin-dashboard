@@ -98,23 +98,22 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/user.png`}
+                  src={`../../assests/user.png`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
               <Box textAlign="center">
                 <Typography
-                  varient="h2"
+                  variant="h2"
                   color={colors.grey[100]}
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
                   Mayank Sharma
                 </Typography>
-                <Typography
-                  varient="h5"
-                  color={colors.greenAccent[500]}
-                ></Typography>
+                <Typography variant="h5" color={colors.greenAccent[500]}>
+                  Jr. Admin
+                </Typography>
               </Box>
             </Box>
           )}
